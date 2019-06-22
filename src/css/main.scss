@@ -1,0 +1,102 @@
+/* you can use imports if you like */
+@import "foo.scss";
+
+.pch {
+    color:red;
+  .dan {
+    color:blue;
+  }
+  &:hover {
+    color:pink
+  }
+}
+
+
+textarea{
+  background: transparent;
+  resize: none;
+  border: 0 none;
+  width: 80%;
+  font-size: 16px;
+  color: white;
+  line-height: 1.2em;
+  outline: none;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  position: absolute;     /* Opera/IE 8+ */
+}
+#main-container{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: aliceblue;
+}
+
+#notes-container{
+  position: fixed;
+  width: 100%;
+  top: 100px;
+  height: 100%;
+
+}
+
+.note{
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  width: 500px;
+  height:250px;
+}
+
+#header-container{
+  position: fixed;
+  padding-left: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  width: 80%;
+
+}
+
+#add-button{
+float: left;
+  padding-top: 12px;
+  text-align: center;
+  font-size: 20px;
+  background-color: green;
+  font-style: oblique;
+  color: white;
+  width: 75px;
+  height:50px;
+}
+
+#remove-button{
+  float: left;
+  padding-top: 12px;
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  width: 75px;
+  height:50px;
+}
+
+.color-button{
+  float: left;
+  alignment:center;
+  text-align: center;
+  width: 50px;
+  height:50px;
+}
+
+#title{
+  float: left;
+  padding-top: 10px;
+  alignment:center;
+  text-align: center;
+  font-size: 20px;
+  width: 20%;
+  height:50px;
+}
