@@ -1,9 +1,3 @@
-/* you can use imports if you like */
-import {foo as bar} from "./foo.js";
-
-export default () => {
-    console.log(`the answer is ${bar}`);
-}
 
 // create structure
 

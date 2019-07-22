@@ -5,4 +5,4 @@ John Markham
 Markham Enterprises, Inc.
 me@markhamenterprises.com
 
-See : http://sandbox.markhamenterprises.com/notes-master/
+See : https://sandbox.markhamenterprises.com/notes-master/
