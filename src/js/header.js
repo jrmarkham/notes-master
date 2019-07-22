@@ -3,7 +3,7 @@ export class Header {
 
     constructor(colors) {
 
-        this.colors = colors;
+        //this.colors = colors;
 
 
 
@@ -30,7 +30,7 @@ export class Header {
         this._headerBar.appendChild(this._title);
 
 
-        this.colors.forEach(item => {
+        colors.forEach(item => {
             this.addColorButton = document.createElement('div');
             this.addColorButton.className = 'color-button';
             this.addColorButton.style.backgroundColor = item;
